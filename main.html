@@ -7,6 +7,11 @@
 
   <body>
     <!-- write the body here -->
+    <form onsubmit="event.preventDefault(); promiseChain()">
+      <input type="number" id="age" placeholder="Enter Your Age" required="">
+      <input type="text" id="name" placeholder="Enter Your Name" required="">
+      <button id="btn" type="submit">Submit</button>
+    </form>
 
     <script type="text/javascript" src="./script.js"></script>
   </body>
